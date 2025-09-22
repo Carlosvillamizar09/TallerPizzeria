@@ -1,0 +1,13 @@
+{
+  "name": "pizza-y-punto",
+  "type": "module",
+  "scripts": {
+    "seed": "node src/seed.js",
+    "cli": "node src/cli.js"
+  },
+  "dependencies": {
+    "mongodb": "^5.0.0",
+    "inquirer": "^9.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
